@@ -2,13 +2,22 @@
 
 /* Flip Five
 
+This program reverses the input only if it is 5 characters long.
+
   Data In:
+  any text
 
 
   Data Out:
+  the reversed input if it was 5 characters long
+  message: "nope, try again" if it was not 5 characters long
 
 
   Test Cases:
+'hello' -> 'olleh'
+'helo' -> 'nope, try again'
+'sweet' -> 'teews'
+'swet' -> 'nope, try again'
 
 
 */

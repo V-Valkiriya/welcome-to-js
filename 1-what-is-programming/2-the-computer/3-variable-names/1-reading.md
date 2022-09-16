@@ -3,9 +3,13 @@
 Study the programs on this page to find all of the pairs:
 
 - _the same instructions_ with _different variable names_
+  > program 1 and 2 and 4; program 3 and 5;
 - _different instructions_ with _the same variable names_
+  > program 1 and 5; program 2 and 3; program 4 and 5;
 - _different instructions_ with _different variable names_
+  > program 1 and 3; program 2 and 5; program 3 and 4;
 - _the same instructions_ with _the same variable names_
+  > program 1 and 4;
 
 <details>
 <summary>hints</summary>
