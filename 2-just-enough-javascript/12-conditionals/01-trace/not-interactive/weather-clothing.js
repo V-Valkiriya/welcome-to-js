@@ -8,11 +8,11 @@
 
 */
 
-let weather = 'spring';
-// let weather = "summer";
-// let weather = "winter";
-// let weather = "fall";
-// let weather = "holidays";
+let weather = 'summer';
+// let weather = "summer"; // 'Make sure to take your sunscreen.';
+// let weather = "winter"; // 'Wear a heavy coat.';
+// let weather = "fall"; // 'Wear a light jacket.';
+// let weather = "holidays"; // 'Invalid weather type.';
 
 let clothingChoice = '';
 
@@ -28,6 +28,6 @@ if (weather === 'spring') {
   clothingChoice = 'Invalid weather type.';
 }
 
-console.log(clothingChoice);
+console.log(clothingChoice); // 'Put on rain boots.';
 
 // Taken from: https://www.codecademy.com/courses/introduction-to-javascript/quizzes/learn-javascript-control-flow-control-flow-quiz

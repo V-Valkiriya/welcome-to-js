@@ -18,7 +18,7 @@
       'hi' -> '"hi" is 8 characters too short'
       'laptop' -> '"laptop" is 4 characters too short'
     strings with exactly 10 characters:
-      'javascript' -> '"javascript" is perfect!'
+      'javascript' -> '"javascript" !is perfect'
     strings with more than 10 characters:
       'open source' -> '"open source" is 11 characters too long'
       'ik woon in belgie' -> '"ik woon in belgie" is 7 characters too long'
@@ -29,14 +29,26 @@ console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let input = prompt(_);
+let input = prompt('write something 10 characters long');
 console.log('input:', input);
 
 /* --- declare initial output --- */
 
-let output = _;
+let output; //'input less than ten by ' + (10 - input.length);
 
 /* --- create final output --- */
+if (input === null) {
+  output = ':(';
+}
+if (input !== null) {
+  if (input.length < 10) {
+    output = input + ' less than ten by ' + (10 - input.length);
+  } else if (input === 10) {
+    output = 'is perfect';
+  } else if (input.length > 10) {
+    output = input + ' more than ten by ' + (input.length - 10);
+  }
+}
 
 /* --- alert the result --- */
 

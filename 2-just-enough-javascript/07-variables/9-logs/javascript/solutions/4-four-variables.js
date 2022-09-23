@@ -1,9 +1,9 @@
 'use strict';
 
-__;
-__;
-__;
-__;
+let first = 'Valeriya';
+let last = 'Kovnirenko';
+let language = 'Ukrainian';
+let favoriteLanguage = 'Dutch';
 
 console.log(first);
 console.log(last);

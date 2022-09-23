@@ -12,7 +12,7 @@ console.log('h' + 'ello!'); // --> 'hello!'
 console.log('h' + 'el' + 'lo' + '!'); // --> 'hello!'
 
 // what happens when you concatenate these two strings?
-console.log('Java' + 'Script'); // --> ?
+console.log('Java' + 'Script'); // --> ? 'JavaScript'
 
 // how is this different than above?
-console.log('Ja' + 'va', 'Sc' + 'ript'); // --> ?
+console.log('Ja' + 'va', 'Sc' + 'ript'); // --> ? 'Java Script'

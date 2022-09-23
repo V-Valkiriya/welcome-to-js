@@ -2,7 +2,7 @@
 
 'use strict';
 
-let input = prompt('enter something with "ear" in it');
+let input = prompt('enter something with "ear" in it'); // 'earj' // 'jjjjj'
 
 let message;
 if (input === null) {
@@ -15,4 +15,4 @@ if (input === null) {
   }
 }
 
-alert(message);
+alert(message); // 'eary' // 'not eary :('

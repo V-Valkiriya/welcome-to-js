@@ -1,11 +1,11 @@
 'use strict';
 
-__;
+let first = 'Valeriya';
 console.log(first);
 
-__;
+let last = 'Kovnirenko';
 console.log(last);
 
-console.log(__ + __);
+console.log(first + last);
 
-console.log(__ + __ + _);
+console.log(first + ' ' + last);

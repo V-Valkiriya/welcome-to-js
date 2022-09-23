@@ -1,6 +1,10 @@
 'use strict';
 
-let input = prompt('enter something with 5 characters:');
+let input = 'Hello user';
+input = prompt('enter something');
+if (input === null) {
+  input = 'thank';
+}
 
 let message = '';
 if (input === null) {

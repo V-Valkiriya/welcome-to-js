@@ -1,14 +1,14 @@
 'use strict';
 
-let number = 1;
+let number = '1, ';
 
-__;
+let two = '2, ';
 
-__;
-__;
+let three;
+three = '3, ';
 
-__;
-__;
+let four;
+four = '4';
 
-__;
-__;
+let result = number + two + three + four;
+console.log(result);
