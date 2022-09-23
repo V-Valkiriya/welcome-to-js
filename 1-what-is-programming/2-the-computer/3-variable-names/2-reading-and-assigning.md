@@ -16,12 +16,19 @@ from 3 different perspectives:
 Study the programs on this page to find all of the pairs:
 
 - _same final value_ and _same instructions_
+  > Program 1 and 3;
 - _same final value_ and _different instructions_
+  > Program 1 and 4; Program 3 and 4;
 - _same variable names_ and _different final value_
+  > Program 2 and 3;
 - _different variable names_ and _same instructions_
+  > Program 1 and 3;
 - _different variable names_ and _different instructions_
+  > Program 1 and 2; Program 2 and 4;
 - _different variable names_ and _different final value_
+  > Program 1 and 2; Program 2 and 4;
 - _different instructions_ and _different final value_
+  > Program 1 and 2; Program 2 and 3; Program 2 and 4;
 
 <details>
 <summary>hints</summary>

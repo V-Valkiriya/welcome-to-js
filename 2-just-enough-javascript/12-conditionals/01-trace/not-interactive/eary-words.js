@@ -3,16 +3,16 @@
 'use strict';
 
 let word = '';
-// let word = 'a';
-// let word = 'be';
-// let word = 'eat';
-// let word = 'ear';
-// let word = 'peat';
-// let word = 'bear';
-// let word = 'early';
-// let word = 'burly';
-// let word = 'pearly';
-// let word = 'poultry';
+// let word = 'a'; // 'word is too short';
+// let word = 'be'; // 'word is too short';
+// let word = 'eat'; // 'not eary :('
+// let word = 'ear'; // 'eary word!'
+// let word = 'peat'; // 'not eary :('
+// let word = 'bear'; // 'not eary :('
+// let word = 'early'; // 'eary word!'
+// let word = 'burly'; // 'not eary :('
+// let word = 'pearly'; // 'eary word!'
+// let word = 'poultry'; // 'not eary :('
 
 let message;
 if (word.length >= 3) {

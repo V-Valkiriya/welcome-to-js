@@ -5,15 +5,25 @@ import {
   displayString,
 } from '../../../../../lib/dom-io/index.js';
 
-whenFormDataChanges('______', () => {
+whenFormDataChanges('nums', () => {
   // debugger;
   console.log('\n--- form data changed ---');
 
   // --- read user input ---
 
+  let left = readNumber('left-num');
+
+  let right = readNumber('right-num');
+
+  console.log(left, right);
+
   // --- compare the numbers ---
 
   // --- create a message
 
+  let greeting = 'Let`s know';
+
   // --- display the message ---
+
+  displayString('compared', greeting);
 });

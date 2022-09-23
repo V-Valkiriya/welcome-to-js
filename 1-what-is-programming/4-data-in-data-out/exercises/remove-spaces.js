@@ -2,14 +2,21 @@
 
 /* Remove Spaces
 
+The program removes spaces in the sentence.
+
   Data In:
+  any text
 
 
   Data Out:
-
+text before and text after without spaces
 
   Test Cases:
+'hello sun JavaScript' -> 'before: hello sun JavaScript'
+                          'after: hellosunJavaScript'
 
+'Pieter Rabbit' -> 'before: Pieter Rabbit'
+                    'after: PieterRabbit'                                   
 
 */
 

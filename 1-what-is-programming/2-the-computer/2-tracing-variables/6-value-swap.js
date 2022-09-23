@@ -15,12 +15,22 @@
 
 */
 
+//declare and init: a = .
 let a = '.';
+//declare and init: b = @
 let b = '@';
+//declare: temp
 let temp;
 
+//read: a = .
+//assign: temp = .
 temp = a;
+//read: b = @
+//assign: a = @
 a = b;
+//read: temp = .
+//assign: b = .
 b = temp;
 
 // is it possible two swap a and b without using temp?
+No;

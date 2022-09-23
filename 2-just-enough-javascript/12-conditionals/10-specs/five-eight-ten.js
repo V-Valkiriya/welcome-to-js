@@ -40,14 +40,32 @@ console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let input = prompt(_);
+let input = prompt('write something');
 console.log('input:', input);
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = ':(';
 
 /* --- create final output --- */
+if (input === null) {
+  output = output;
+}
+if (input.length < 5) {
+  output = 'better';
+}
+if (input.length >= 5 && input.length < 8) {
+  output = 'almost there';
+}
+if (input.length >= 8 && input.length < 10) {
+  output = 'so close';
+}
+if (input.length === 10) {
+  output = 'perfect!';
+}
+if (input.length > 10) {
+  output = 'too long';
+}
 
 /* --- alert the result --- */
 

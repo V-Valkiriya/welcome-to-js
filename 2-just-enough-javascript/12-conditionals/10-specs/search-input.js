@@ -37,17 +37,30 @@ console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let text = prompt(_);
+let text = prompt('write first word');
 console.log('text:', text);
 
-let query = prompt(_);
+let query = prompt(
+  'write the second word and we will find out if the first one includes it',
+);
 console.log('query:', query);
 
 /* --- declare initial output --- */
 
-let output = _;
+let output;
 
 /* --- create final output --- */
+if (text === null) {
+  output = ':(';
+}
+if (query === null) {
+  output = ':(';
+}
+if (text.includes(query)) {
+  output = text + ' does include ' + query;
+} else {
+  output = text + ' does not include ' + query;
+}
 
 /* --- alert the result --- */
 

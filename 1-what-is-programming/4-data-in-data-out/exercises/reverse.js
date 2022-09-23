@@ -2,14 +2,19 @@
 
 /* Reverse
 
+This program reverses the input.
+
   Data In:
+  any text
 
 
   Data Out:
-
+any text and reserved text
 
   Test Cases:
-
+'hello' -> 'hello -> olleh'
+'sun' -> 'sun -> nus'
+'JavaScript' -> 'JavaScript -> tpircSavaJ'
 
 */
 
