@@ -5,18 +5,20 @@ console.log('--- in execution phase ---');
 /*
   environment:
 
-  name:
-  message:
+  name: ReferenceError
+  message: Cannot access 'tomatoes' before initialization
 
-  location:
+  location: 20:13
 
-  life cycle:
+  life cycle: execution
 
-  the mistake:
+  the mistake: there isn`t tomatoes before console.log
 
-  the fix(es):
+  the fix(es): move tomatoes before console.log
 */
+
+let tomatoes = 'fresh';
 
 console.log(tomatoes);
 
-let tomatoes = 'fresh';
+

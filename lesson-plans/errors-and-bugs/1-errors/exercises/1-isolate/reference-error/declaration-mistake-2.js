@@ -6,25 +6,24 @@ console.log('--- in execution phase ---');
   environment:
 
   name:
-  message:
+  message: 'ReferenceError: Cannot access 'isValidUserName' before initialization'
 
-  location:
+  location: 24
 
-  life cycle:
+  life cycle: before 
 
-  the mistake:
+  the mistake: Cannot access 'isValidUserName' before initialization
 
-  the fix(es):
+  the fix(es): Move let isValidUserName to a loop
 */
 
 const userName = 'chiobin';
+let isValidUserName;
 console.log('userName:', typeof userName, userName);
 
 if (userName.length > 3) {
   isValidUserName = true;
 }
-
-let isValidUserName;
 
 if (userName.length <= 3) {
   isValidUserName = false;
