@@ -3,14 +3,14 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment: Browser Chrome
 
   name:
   message: 'ReferenceError: Cannot access 'isValidUserName' before initialization'
 
   location: 24
 
-  life cycle: before 
+  life cycle: execution
 
   the mistake: Cannot access 'isValidUserName' before initialization
 

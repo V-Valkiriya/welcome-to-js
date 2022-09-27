@@ -10,17 +10,17 @@ import {
   name:
   message:
 
-  location:
+  location: 23
 
   life cycle:
 
-  the mistake:
+  the mistake: there aren`t buckets
 
-  the fix(es):
+  the fix(es): add buckets
 */
 
 whenFormDataChanges('input', () => {
-  console.log(--- form data changed ---);
+  console.log('--- form data changed ---');
 
   // --- read the user's input ---
 

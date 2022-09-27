@@ -6,16 +6,16 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
-  environment:
+  environment: browser Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: Cannot use import statement outside a module
 
-  location:
+  location: 32
 
-  life cycle:
+  life cycle: execution
 
-  the mistake:
+  the mistake: wrong operators in let repeated
 
   the fix(es):
 */
@@ -29,7 +29,7 @@ whenFormDataChanges('user-data', () => {
 
   // --- repeat the text ---
 
-  let repeated + text + '\n' + text;
+  let repeated = text + '\n' + text;
 
   // --- display the repeated text ---
 

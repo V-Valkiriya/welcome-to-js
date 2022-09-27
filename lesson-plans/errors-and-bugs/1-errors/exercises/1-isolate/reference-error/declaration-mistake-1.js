@@ -3,7 +3,7 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment: 
+  environment: Browser Chrome
 
   name: ReferenceError
   message: welf is not defined

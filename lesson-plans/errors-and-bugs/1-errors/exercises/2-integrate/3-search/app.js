@@ -6,18 +6,18 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
-  environment:
+  environment: browser Chrome
 
   name:
   message:
 
-  location:
+  location: 35
 
   life cycle:
 
-  the mistake:
+  the mistake: no declare variable doesExist
 
-  the fix(es):
+  the fix(es): adding let
 */
 
 whenFormDataChanges('search-input', () => {
@@ -32,7 +32,7 @@ whenFormDataChanges('search-input', () => {
 
   // --- do the search ---
 
-  doesExist = false;
+  let doesExist = false;
 
   if (caseSensitive) {
     doesExist = searchThis.includes(findThis);

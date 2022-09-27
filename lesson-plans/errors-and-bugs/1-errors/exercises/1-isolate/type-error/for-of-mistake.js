@@ -3,21 +3,21 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment: browser Chrome
 
-  name:
-  message:
+  name: TypeError
+  message: maxNumber is not iterable
 
-  location:
+  location: 22
 
-  life cycle:
+  life cycle: execution
 
-  the mistake:
+  the mistake: 6 can`t be broken down into numbers 1-5
 
-  the fix(es):
+  the fix(es): change value
 */
 
-const maxNumber = 6;
+const maxNumber = '012345';
 
 for (const i of maxNumber) {
   console.log(i); // 0, 1, 2, 3, 4, 5
