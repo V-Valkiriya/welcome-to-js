@@ -17,3 +17,4 @@ let greeting = 'hello ' + first + ' ' + last;
 greeting = greeting + '!';
 
 console.log(greeting); // 'hello angus croll!'
+// for test
