@@ -18,12 +18,13 @@ whenFormDataChanges('nums', () => {
   console.log(left, right);
 
   // --- compare the numbers ---
+ 
+
 
   // --- create a message
 
-  let greeting = 'Let`s know';
 
   // --- display the message ---
 
-  displayString('compared', greeting);
+  displayString('compared', message);
 });
