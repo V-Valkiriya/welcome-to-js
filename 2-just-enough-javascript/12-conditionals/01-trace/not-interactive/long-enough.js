@@ -3,11 +3,11 @@
 'use strict';
 
 let word = 'a';
-// let word = 'be';
-// let word = 'sea';
-// let word = 'frog';
-// let word = 'apple';
-// let word = 'banana';
+// let word = 'be'; // 'a short word';
+// let word = 'sea'; // 'a perfect word';
+// let word = 'frog'; // 'a perfect word';
+// let word = 'apple'; // 'a long word';
+// let word = 'banana'; // 'a long word';
 
 let message;
 if (word.length <= 2) {
@@ -21,4 +21,4 @@ if (word.length <= 2) {
   message = 'a long word';
 }
 
-console.log(message);
+console.log(message); // 'a short word';

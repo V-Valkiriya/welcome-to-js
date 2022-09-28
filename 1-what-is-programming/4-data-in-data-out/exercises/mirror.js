@@ -2,13 +2,20 @@
 
 /* Mirror
 
+The program reflects the word as in mirror
+
   Data In:
+  any text
 
 
   Data Out:
+  reserved text 'bar' text
 
 
   Test Cases:
+'olleh' '|' 'hello'
+'nus' '|' 'sun'
+'tpircSavaJ' '|' 'JavaScript'
 
 
 */

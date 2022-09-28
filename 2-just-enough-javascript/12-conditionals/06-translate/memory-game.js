@@ -5,9 +5,9 @@
 /*
 
 
-  Data In:
+  Data In: 'hello';
 
-  Data Out:
+  Data Out: 'now try to remember what it was:';
 
   Test Cases:
 
@@ -15,22 +15,26 @@
 
 /* ---   ?   --- */
 
-// thingToRemember <- prompt('enter some text, then remember it.\n\n' + 'if you remember it correctly you win')
+let thingToRemember = prompt(
+  'enter some text, then remember it.\n\n' +
+    'if you remember it correctly you win',
+);
 
-// IF: thingToRemember !== null
-/* ---   ?   --- */
-//   guess <- prompt('now try to remember what it was:')
-//   IF: guess !== null
-//     IF: guess === thingToRemember
-/* ---   ?   --- */
-//       alert('you win!')
-//     ELSE:
-/* ---   ?   --- */
-//       alert('try again.')
-//     :END IF
-//   :END IF
-// :END IF
+if (thingToRemember !== null) {
+  /* declare and init guess = promt */
+  let guess = prompt('now try to remember what it was:');
 
-/* ---   ?   --- */
+  if (guess !== null) {
+    if (guess === thingToRemember) {
+      /* alert if user remember */
+      alert('you win!');
+    } else {
+      /* alert if user don`t remember  */
+      alert('try again.');
+    }
+  }
+}
 
-// alert('good bye')
+/* alert at the end */
+
+alert('good bye');

@@ -1,4 +1,4 @@
-// #todo
+// #todo //#notresolve
 
 'use strict';
 
@@ -15,18 +15,19 @@
 
 /* ---  ?  --- */
 
-// input <- null
-// WHILE: input === null
-//   input <- prompt('enter something, it will become curious')
-// :END WHILE
+let input = null; // input <- null
+while (input === null) { // WHILE: input === null
+       input = prompt('enter something, it will become curious'); //   input <- prompt('enter something, it will become curious')
+}// :END WHILE
+
+let output = input;// output <- input
+if (input[input.length - 1] !== '?')  { // IF: input[input.length - 1] !== '?'
+output = output + '?';//   output <- output + '?'
+}// :END IF
+/* ---  ?  --- */
+
+
 
 /* ---  ?  --- */
 
-// output <- input
-// IF: input[input.length - 1] !== '?'
-//   output <- output + '?'
-// :END IF
-
-/* ---  ?  --- */
-
-// alert(output)
+alert(output);// alert(output)

@@ -5,35 +5,35 @@
 /*
 
 
-  Data In:
+  Data In: 'hello';
 
-  Data Out:
+  Data Out: 'your input is not empty';
 
-  Test Cases:
+  Test Cases: 
 
 */
 
-/* ---   ?   --- */
+/* declare and init: input */
 
-// input <- prompt('do whatever you want')
+let input = prompt('do whatever you want');
 
-/* ---   ?   --- */
+/* declare and init: message */
 
-// message <- 'your input is '
+let message = 'your input is ';
+if (input === null) {
+  /* assign: message if choose 'cancel' */
+  message = message + 'null';
+} else {
+  /* declare and init: maybeNot if choose 'ok' */
+  let maybeNot = '';
+  if (input.length !== 0);
+  {
+    /* assign: maybeNot if fill input */
+    maybeNot = 'not ';
+  }
+  message = message + maybeNot + 'empty';
+}
 
-// IF: input === null
-/* ---   ?   --- */
-//   message <- message + 'null'
-// ELSE:
-/* ---   ?   --- */
-//   maybeNot <- ''
-//   IF: input.length !== 0
-/* ---   ?   --- */
-//     maybeNot <- 'not '
-//   :END IF
-//   message <- message + maybeNot + 'empty'
-// :END IF
+/* allert function */
 
-/* ---   ?   --- */
-
-// alert(message)
+alert(message);

@@ -10,4 +10,31 @@ while (b.length < a.length * 3) {
   b = b + a;
 }
 
-console.log(b);
+console.log(b); // ' ***'
+
+let a = '<>';
+
+let b = '';
+while (b.length < a.length * 3) {
+  b = b + a;
+}
+
+console.log(b); // ' <><><>'
+
+let a = '|-|';
+
+let b = '';
+while (b.length < a.length * 3) {
+  b = b + a;
+}
+
+console.log(b); // ' |-||-||-|'
+
+let a = '';
+
+let b = '';
+while (b.length < a.length * 3) {
+  b = b + a;
+}
+
+console.log(b); // '   '

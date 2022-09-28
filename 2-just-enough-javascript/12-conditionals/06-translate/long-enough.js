@@ -4,34 +4,35 @@
 /*
 
 
-  Data In:
+  Data In: 'hello'
 
-  Data Out:
+  Data Out: 'exactly 5!'
 
   Test Cases:
 
 */
 
-/* ---   ?   --- */
+/* declare and init: imput;
+   declare and init: message; */
 
-// input <- prompt('enter anything longer than 5 characters')
+let input = prompt('enter anything longer than 5 characters');
+let message;
+if (input !== null) {
+  if (input.length < 5) {
+    /* assign message if input length less than 5 */
+    message = 'too short';
+  } else if (input.length > 5) {
+    /* assign message if input length less than 5 */
+    message = 'long enough';
+  } else if (input.length === 5) {
+    /* assign message if input length is 5 */
+    message = 'exactly 5!';
+  }
+} else {
+  /* assign message if user choose 'cancel' */
+  message = 'you canceled :(';
+}
 
-// IF: input !== null
-//   IF: input.length < 5
-/* ---   ?   --- */
-//     message <- 'too short'
-//   ELSE: IF: input.length > 5
-/* ---   ?   --- */
-//     message <- 'long enough'
-//   ELSE:
-/* ---   ?   --- */
-//     message <- 'exactly 5!'
-//   :END IF
-// ELSE:
-/* ---   ?   --- */
-//   message <- 'you canceled :('
-// :END IF
+/* allert function */
 
-/* ---   ?   --- */
-
-// alert(message)
+alert(message);
